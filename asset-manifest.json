@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/github.io/my-first-react/static/css/main.285168d9.css",
+    "main.js": "/github.io/my-first-react/static/js/main.51f989a0.js",
+    "static/js/453.3faecf1f.chunk.js": "/github.io/my-first-react/static/js/453.3faecf1f.chunk.js",
+    "static/media/Jeffrey_Basset.jpg": "/github.io/my-first-react/static/media/Jeffrey_Basset.4da4ffc108bc783caf35.jpg",
+    "index.html": "/github.io/my-first-react/index.html",
+    "main.285168d9.css.map": "/github.io/my-first-react/static/css/main.285168d9.css.map",
+    "main.51f989a0.js.map": "/github.io/my-first-react/static/js/main.51f989a0.js.map",
+    "453.3faecf1f.chunk.js.map": "/github.io/my-first-react/static/js/453.3faecf1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.285168d9.css",
+    "static/js/main.51f989a0.js"
+  ]
+}
