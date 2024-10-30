@@ -2,9 +2,9 @@ import React from 'react';
 import photo from './Jeffrey_Basset.jpg';
 
 function Header() {
-  // Fonction pour ouvrir le lien direct vers le PDF version imprimable
+  // Fonction pour ouvrir la version imprimable en PDF
   const handlePrintPDF = () => {
-    window.open("https://moncvinteractif.netlify.app/my-first-react/CV-Jeffrey-BassetVI.pdf", "_blank");
+    window.open("/CV-Jeffrey-BassetVI.pdf", "_blank");
   };
 
   return (
@@ -14,7 +14,7 @@ function Header() {
         <p>Développeur en reconversion</p>
         <div className="header-buttons">
           {/* Bouton pour télécharger la version standard du CV */}
-          <a href="https://moncvinteractif.netlify.app/my-first-react/CV-Jeffrey-Basset.pdf" download className="download-button">
+          <a href="/CV-Jeffrey-Basset.pdf" download className="download-button">
             Télécharger le CV
           </a>
 
