@@ -4,7 +4,7 @@ import photo from './Jeffrey_Basset.jpg';
 function Header() {
   // Fonction pour ouvrir le lien direct vers le PDF version imprimable
   const handlePrintPDF = () => {
-    window.open("https://jefftoken31.github.io/my-first-react/CV-Jeffrey-BassetVI.pdf", "_blank");
+    window.open("https://moncvinteractif.netlify.app/my-first-react/CV-Jeffrey-BassetVI.pdf", "_blank");
   };
 
   return (
@@ -14,7 +14,7 @@ function Header() {
         <p>Développeur en reconversion</p>
         <div className="header-buttons">
           {/* Bouton pour télécharger la version standard du CV */}
-          <a href="https://jefftoken31.github.io/my-first-react/CV-Jeffrey-Basset.pdf" download className="download-button">
+          <a href="https://moncvinteractif.netlify.app/my-first-react/CV-Jeffrey-Basset.pdf" download className="download-button">
             Télécharger le CV
           </a>
 
