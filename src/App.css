@@ -1,38 +1,271 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Styles généraux */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+  background-color: #f8f9fc;
+  color: #333;
+  padding: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Structure du CV */
+header, section {
+  margin-bottom: 30px;
+  padding: 20px 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header styling */
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: #777;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.header-center {
+  text-align: center;
+  flex: 1;
+}
+
+.header-right {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.profile-photo {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 1.8em;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 1em;
+  color: #dddddd;
+}
+
+/* Boutons du CV */
+.header-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.download-button, .print-button {
+  background-color: #4a90e2;
   color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.download-button:hover, .print-button:hover {
+  background-color: #3a78c2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Titre des sections */
+h2 {
+  color: #4a90e2;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #4a90e2;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Contenu des sections */
+ul, p {
+  margin-top: 15px;
+  font-size: 1em;
+  color: #555;
+}
+
+ul li {
+  margin-bottom: 12px;
+}
+
+.section p {
+  margin-bottom: 15px;
+}
+
+/* Style des sous-sections d'expériences */
+.experience h3 {
+  font-size: 1.2em;
+  color: #333;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.experience p {
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+footer a {
+  color: #4a90e2;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #3a78c2;
+}
+
+/* Masquer complètement la navigation du header */
+.header nav {
+  display: none;
+}
+
+/* Internal navigation styling */
+.internal-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.internal-nav ul li {
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+  cursor: pointer; /* Ajout du pointeur de souris */
+}
+
+.nav-link:hover {
+  color: #333;
+}
+
+/* Animation de fondu en entrée */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Slide-in depuis la gauche */
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.slide-in-left.appear {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Slide-in depuis la droite */
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.slide-in-right.appear {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Pour les tablettes */
+@media (max-width: 768px) {
+  .header-center, .header-right {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .internal-nav {
+    display: none;
+  }
+
+  .profile-photo {
+    width: 100px; /* réduction de la taille sur les petits écrans */
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p, li {
+    font-size: 0.9em;
+  }
+}
+
+/* Pour les petits appareils (mobiles) */
+@media (max-width: 480px) {
+  .header-center, .header-right {
+    align-items: flex-start;
+    padding: 10px;
+  }
+  
+  .profile-photo {
+    display: none;
+  }
+
+  .download-button, .print-button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  p, li {
+    font-size: 0.8em;
+  }
+
+  /* Réduction des marges pour mobile */
+  section {
+    margin-bottom: 15px;
   }
 }

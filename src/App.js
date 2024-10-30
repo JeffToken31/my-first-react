@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+import React from 'react';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import About from './components/About';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import TransversalSkills from './components/TransversalSkills';
+import Languages from './components/Languages';
+import Interests from './components/Interests';
+import Footer from './components/Footer';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Nav />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <About />
+              <Skills />
+              <Experience />
+              <Education />
+              <TransversalSkills />
+              <Languages />
+              <Interests />
+            </>
+          } />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
