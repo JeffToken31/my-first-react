@@ -12,7 +12,7 @@ function Experience() {
       
       <div>
         <h3>Maestria Balma – Vendeur Coloriste et Consultant Technique | 2020 - 2024</h3>
-        <p>Spécialiste en peintures pour le bâtiment, y compris les solutions anticorrosion et les revêtements de sol. Conseils techniques en isolation thermique par l'extérieur (ITE) pour les secteurs industriel et agroalimentaire.</p>
+        <p>Spécialiste en peintures pour le bâtiment, y compris les solutions anticorrosion et les revêtements de sol (secteurs industriel et agroalimentaire). Conseils techniques en isolation thermique par l'extérieur (ITE).</p>
         <p>Compétences Clés : Gestion de la colorimétrie, suivi des commandes, interventions sur site pour préconisations techniques.</p>
       </div>
       
