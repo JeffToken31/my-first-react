@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 function About() {
   const { ref, inView } = useInView({
     triggerOnce: true, // Lance l'animation uniquement lors de la première vue
-    threshold: 0.1, // L'animation démarre lorsque 10% de la section sont visibles
+    threshold: 0.2, // L'animation démarre lorsque 10% de la section sont visibles
   });
 
   return (

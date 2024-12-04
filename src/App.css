@@ -1,6 +1,4 @@
-/* App.css */
 
-/* Styles généraux */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +13,6 @@ body {
   padding: 30px;
 }
 
-/* Structure du CV */
 header, section {
   margin-bottom: 30px;
   padding: 20px 25px;
@@ -24,7 +21,6 @@ header, section {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Header styling */
 .header {
   display: flex;
   justify-content: center;
@@ -89,7 +85,6 @@ header, section {
   background-color: #3a78c2;
 }
 
-/* Titre des sections */
 h2 {
   color: #4a90e2;
   font-size: 1.5em;
@@ -100,7 +95,6 @@ h2 {
   padding-bottom: 5px;
 }
 
-/* Contenu des sections */
 ul, p {
   margin-top: 15px;
   font-size: 1em;
@@ -115,7 +109,6 @@ ul li {
   margin-bottom: 15px;
 }
 
-/* Style des sous-sections d'expériences */
 .experience h3 {
   font-size: 1.2em;
   color: #333;
@@ -147,12 +140,10 @@ footer a:hover {
   color: #3a78c2;
 }
 
-/* Masquer complètement la navigation du header */
 .header nav {
   display: none;
 }
 
-/* Internal navigation styling */
 .internal-nav ul {
   list-style: none;
   display: flex;
@@ -173,7 +164,7 @@ footer a:hover {
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
-  cursor: pointer; /* Ajout du pointeur de souris */
+  cursor: pointer; 
 }
 
 .nav-link:hover {
@@ -240,7 +231,7 @@ footer a:hover {
   }
 }
 
-/* Pour les petits appareils (mobiles) */
+/* Pour les téléphones */
 @media (max-width: 480px) {
   .header-center, .header-right {
     align-items: flex-start;
@@ -264,7 +255,7 @@ footer a:hover {
     font-size: 0.8em;
   }
 
-  /* Réduction des marges pour mobile */
+  /* Réduction des marges pour les téléphones */
   section {
     margin-bottom: 15px;
   }
