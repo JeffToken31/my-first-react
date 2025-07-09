@@ -107,8 +107,16 @@ ul li {
 
 .section p {
   margin-bottom: 15px;
+
+body a {
+  color: #4a90e2;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
+body a:hover {
+  color: #3a78c2;
+}
 .experience h3 {
   font-size: 1.2em;
   color: #333;
