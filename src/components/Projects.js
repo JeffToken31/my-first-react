@@ -11,60 +11,75 @@ function Projects() {
       <h2>Projets Réalisés</h2>
 
 <div>
-  <h3>Clonage du site Airbnb | 2024</h3>
-  <p><strong>Contexte :</strong> Projet d’équipe – Holberton School</p>
-  <p><strong>Technos :</strong> Python, Flask, Flask-RESTx, SQLAlchemy, MySQL</p>
-  <p><strong>Description :</strong> Développement orienté objet d’un back-end complet inspiré du fonctionnement du site Airbnb. Réalisation d’une API RESTful structurée avec Flask-RESTx, incluant la gestion de routes, de ressources imbriquées, et d’un schéma de validation robuste. Authentification utilisateur via token, gestion sécurisée des mots de passe (hash avec bcrypt), structure MVC, ORM avec SQLAlchemy pour manipuler la base de données MySQL.</p>
-  <p><strong>Compétences clés :</strong> REST API, cryptage des mots de passe, gestion de sessions, modularité du code, collaboration Git en équipe, pair programming.</p>
-</div>
+<h3>
+          <a href="https://github.com/JeffToken31/holbertonschool-hbnb" target="_blank" rel="noopener noreferrer">
+            Clonage du site Airbnb – HBNB | 2024 🔗
+          </a>
+        </h3>
+        <p><strong>Contexte :</strong> Projet d’équipe – Holberton School</p>
+        <p><strong>Technos :</strong> Python, Flask, Flask-RESTx, SQLAlchemy, MySQL</p>
+        <p><strong>Description :</strong> Développement orienté objet d’un back-end complet inspiré d’Airbnb. API RESTful avec authentification JWT, gestion des routes via une façade en Singleton, scripts SQL pour les tests, et utilisation du framework `unittest`.</p>
+        <p><strong>Compétences clés :</strong> Design Pattern Singleton, REST API, ORM SQLAlchemy, tests unitaires, sécurité (bcrypt), architecture MVC, travail en équipe avec Git.</p>
+      </div>
 
-<div>
-  <h3>Simple Shell (sh) – Shell Unix simplifié | 2024</h3>
-  <p><strong>Contexte :</strong> Projet d’équipe – Holberton School</p>
-  <p><strong>Technos :</strong> C, Bash</p>
-  <p><strong>Description :</strong> Création d’un interpréteur de commandes simple (type bash), avec gestion de la boucle principale, parsing, fork/execve, redirection d’entrées/sorties, gestion des erreurs et des signaux (CTRL+C). Prise en charge des commandes intégrées comme `cd`, `exit`, `env`, etc.</p>
-  <p><strong>Compétences clés :</strong> Gestion de processus, manipulation de la mémoire, programmation bas niveau, approche modulaire en C.</p>
-</div>
+      <div>
+        <h3>
+          <a href="https://github.com/JeffToken31/holbertonschool-simple_shell" target="_blank" rel="noopener noreferrer">
+            Simple Shell (sh) – Shell Unix simplifié | 2024 🔗
+          </a>
+        </h3>
+        <p><strong>Contexte :</strong> Projet d’équipe – Holberton School</p>
+        <p><strong>Technos :</strong> C, Bash</p>
+        <p><strong>Description :</strong> Développement d’un shell Unix minimaliste avec parsing, boucle principale, exécution des commandes via `fork`/`execve`, gestion des signaux et de la mémoire. Commandes intégrées comme `cd`, `exit`, `env`, `cp` (ajoutée).</p>
+        <p><strong>Compétences clés :</strong> Processus Unix, bas niveau, gestion mémoire, normes Betty (C89), usage de Valgrind pour validation mémoire.</p>
+      </div>
 
-<div>
-  <h3>Reproduction de la fonction printf | 2024</h3>
-  <p><strong>Contexte :</strong> Projet d’équipe – Holberton School</p>
-  <p><strong>Technos :</strong> C</p>
-  <p><strong>Description :</strong> Réécriture de la fonction `printf` en C, supportant les formats `%d`, `%s`, `%c`, `%x`, `%p`, etc. Gestion de l’affichage mémoire, pointeurs, conversions numériques et chaînage d’arguments variadiques via `va_list`.</p>
-  <p><strong>Compétences clés :</strong> Gestion mémoire, recursion, manipulation de chaînes, programmation bas niveau.</p>
-</div>
+      <div>
+        <h3>
+          <a href="https://github.com/JeffToken31/holbertonschool-printf" target="_blank" rel="noopener noreferrer">
+            Reproduction de la fonction printf | 2024 🔗
+          </a>
+        </h3>
+        <p><strong>Contexte :</strong> Projet d’équipe – Holberton School</p>
+        <p><strong>Technos :</strong> C</p>
+        <p><strong>Description :</strong> Réécriture complète de `printf` en C, en utilisant des fonctions bas niveau (`write`) et sans appel aux fonctions standards. Support des formats `%d`, `%s`, `%x`, `%p`, etc. Gestion avancée des `va_list`, pointeurs, conversion.</p>
+        <p><strong>Compétences clés :</strong> Systèmes bas niveau, affichage mémoire, gestion des chaînes et pointeurs, respect strict du style C89, conformité Valgrind.</p>
+      </div>
 
-<div>
-  <h3>CV Interactif – Déploiement Web | 2025</h3>
-  <p><strong>Contexte :</strong> Projet personnel</p>
-  <p><strong>Technos :</strong> ReactJS, HTML, CSS, JavaScript</p>
-  <p><strong>Description :</strong> Création d’un CV interactif et animé, responsive et déployé en ligne. Utilisation de hooks React (comme `useInView`), structure modulaire, animations CSS, et navigation fluide en scroll.</p>
-  <p><strong>Compétences clés :</strong> React moderne, déploiement web, responsive design, accessibilité.</p>
-</div>
+      <div>
+        <h3>
+            CV Interactif – Déploiement Web | 2025
+        </h3>
+        <p><strong>Contexte :</strong> Projet personnel</p>
+        <p><strong>Technos :</strong> ReactJS, HTML, CSS, JavaScript</p>
+        <p><strong>Description :</strong> CV responsive et animé avec ReactJS, utilisant des hooks (`useInView`), animations CSS et déploiement web. Navigation fluide en scroll.</p>
+        <p><strong>Compétences clés :</strong> React moderne, accessibilité, responsive design, UX/UI.</p>
+        <p><strong>Remarque :</strong> Node.js est utilisé en environnement de développement pour React, mais n’a pas été utilisé pour le back-end ici.</p>
+      </div>
 
-<div>
-  <h3>dApp Swap & Staking (Ethereum) – Prototype | 2025</h3>
-  <p><strong>Contexte :</strong> Projet personnel – solo (non finalisé)</p>
-  <p><strong>Technos :</strong> Solidity, Hardhat, Ethers.js v6, OpenZeppelin, Node.js</p>
-  <p><strong>Description :</strong> Tentative de création d’une application décentralisée (dApp) avec smart contracts ERC20 personnalisés, système de staking avec intérêts, et contrat de swap de tokens. Architecture basée sur le framework Hardhat pour le développement, les tests unitaires, le déploiement sur réseau local et testnet Sonic. Sécurité via OpenZeppelin, intégration avec Ethers.js v6.</p>
-  <p><strong>Compétences clés :</strong> Smart Contracts, sécurité Solidity, gestion de tokens, tests avec Mocha/Chai, scripts de déploiement, interaction frontend/backend.</p>
-</div>
+      <div>
+        <h3>dApp Swap & Staking (Ethereum) – Prototype | 2025</h3>
+        <p><strong>Contexte :</strong> Projet personnel – en cours</p>
+        <p><strong>Technos :</strong> Solidity, Hardhat, Ethers.js v6, OpenZeppelin, Node.js</p>
+        <p><strong>Description :</strong> Développement d’une dApp pour swapper et staker des tokens ERC20, avec génération d’intérêts. Contrats intelligents testés localement, tentatives de déploiement sur le testnet Sonic (ex-Phantom).</p>
+        <p><strong>Compétences clés :</strong> Smart Contracts, sécurité Solidity, scripts de déploiement, tests unitaires (Mocha/Chai), interaction front/back avec Ethers.js.</p>
+      </div>
 
-<div>
-  <h3>Site Dynamique PHP | 2024</h3>
-  <p><strong>Contexte :</strong> Projet OpenClassrooms – solo</p>
-  <p><strong>Technos :</strong> PHP, HTML, CSS, MySQL</p>
-  <p><strong>Description :</strong> Développement d’un site dynamique avec formulaire, traitement de données côté serveur, et affichage conditionnel. Stockage des données en base MySQL. Gestion d’une architecture simple avec séparation logique entre les fichiers HTML/PHP.</p>
-  <p><strong>Compétences clés :</strong> Manipulation des requêtes HTTP, back-end simple, injection de données, sécurité des entrées utilisateur.</p>
-</div>
+      <div>
+        <h3>Site Dynamique PHP | 2024</h3>
+        <p><strong>Contexte :</strong> Projet OpenClassrooms – solo</p>
+        <p><strong>Technos :</strong> PHP, HTML, CSS, MySQL</p>
+        <p><strong>Description :</strong> Développement d’un site dynamique avec formulaire, traitement serveur, insertion en base de données MySQL. Utilisation de logiciels comme XAMPP et Cleopatra pour simuler un serveur local.</p>
+        <p><strong>Compétences clés :</strong> Traitement de requêtes HTTP, back-end simple, sécurité des entrées, structure HTML/PHP séparée.</p>
+      </div>
 
-<div>
-  <h3>Mini-projets Web | 2023 – 2025</h3>
-  <p><strong>Contexte :</strong> Formations FreeCodeCamp, OpenClassrooms et projets personnels</p>
-  <p><strong>Technos :</strong> HTML, CSS, JavaScript</p>
-  <p><strong>Description :</strong> Réalisation de petits projets pour acquérir les bases du web : to-do list, générateur de citations aléatoires, jeux de devinettes, mini-calculatrice, animations CSS, landing pages responsives, etc.</p>
-  <p><strong>Compétences clés :</strong> DOM, événements JS, logique conditionnelle, gestion du temps, animations CSS.</p>
-</div>
+      <div>
+        <h3>Mini-projets Web | 2023 – 2025</h3>
+        <p><strong>Contexte :</strong> Formations FreeCodeCamp, OpenClassrooms, projets personnels</p>
+        <p><strong>Technos :</strong> HTML, CSS, JavaScript</p>
+        <p><strong>Description :</strong> Réalisation de nombreux mini-projets pour renforcer la logique JS et la manipulation du DOM : to-do list, générateur de citations, mini-jeux, animations, etc.</p>
+        <p><strong>Compétences clés :</strong> JS vanilla, DOM, logique conditionnelle, animation CSS, responsive design.</p>
+      </div>
     </section>
   );
 }
