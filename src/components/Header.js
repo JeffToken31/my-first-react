@@ -10,8 +10,8 @@ function Header() {
   return (
     <header className="header">
       <div className="header-center">
-        <h1>Jeffrey Basset</h1>
-        <p>Développeur en reconversion</p>
+        <h1>Developpeur Full_stack/Back_end</h1>
+        <p>Jeffrey Basset</p>
         <div className="header-buttons">
           {/* Bouton pour télécharger la version standard du CV */}
           <a href="/CV-Jeffrey-Basset.pdf" download className="download-button">
