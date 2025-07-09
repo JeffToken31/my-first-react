@@ -10,9 +10,10 @@ function Interests() {
     <section id="interests" ref={ref} className={`slide-in-left ${inView ? 'appear' : ''}`}>
       <h2>Centres d’Intérêt</h2>
       <ul>
-        <li>Intérêt pour le Web3, la blockchain et les nouvelles technologies</li>
-        <li>Bricolage et mécanique</li>
-        <li>Développement personnel via plateformes d'apprentissage en ligne</li>
+        <li>Le Web3(Propriété des données, Décentralisation, DAO)</li>
+        <li>Sports : rugby, tennis, art martiaux</li>
+        <li>DIY (bâtiment, mécanique)</li>
+        <li>Economie, Finances, Investissement</li>
       </ul>
     </section>
   );
