@@ -107,24 +107,25 @@ ul li {
 
 .section p {
   margin-bottom: 15px;
+}
 
-body a {
+#Projects a {
   color: #4a90e2;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-body a:hover {
+#Projects a:hover {
   color: #3a78c2;
 }
-.experience h3 {
+#experience h3 {
   font-size: 1.2em;
   color: #333;
   font-weight: 400;
   margin-top: 15px;
 }
 
-.experience p {
+#experience p {
   font-size: 0.95em;
   color: #555;
   line-height: 1.6;
