@@ -11,7 +11,7 @@ function About() {
     <section id="about" ref={ref} className={`fade-in ${inView ? 'appear' : ''}`}>
       <h2>À propos</h2>
       <p>
-      En reconversion dans le domaine de l'informatique, je suis inscrit à la Holberton School pour la session de mars 2025. Mon objectif est d'acquérir des compétences techniques en développement logiciel pour intégrer le secteur informatique. Je recherche un stage PMSMP pour explorer davantage les métiers de développeur.
+      Apprenant chez Holberton School afin d’acquérir les bases du développement logiciel/web. Je recherche une entreprise prête à accueillir un dev junior dans le cadre de l’apprentissage pour une spécialisation Full stack.
       </p>
     </section>
   );
