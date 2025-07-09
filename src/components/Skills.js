@@ -17,7 +17,7 @@ function Skills() {
           <li>Python – Flask, Flask-RESTx</li>
           <li>SQL – MySQL, SQLAlchemy (ORM)</li>
           <li>Solidity – Smart Contracts (ERC20, Staking, Swap)</li>
-          <li>C – Programmation système, norme syntaxique C89 (style Betis)</li>
+          <li>C – Programmation système, norme C89</li>
           <li>Node.js – Scripts de déploiement avec Hardhat</li>
         </ul>
       </div>
@@ -37,6 +37,7 @@ function Skills() {
           <li>Git & GitHub – gestion de versions, branches</li>
           <li>Bash – scripts et manipulation système</li>
           <li>Visual Studio Code, Emacs</li>
+          <li>Valgrind – analyse mémoire</li>
         </ul>
       </div>
 
@@ -54,7 +55,7 @@ function Skills() {
         <ul>
           <li>Linux – Debian/Ubuntu</li>
           <li>Windows – usage quotidien</li>
-          <li>Réseaux – testnets (Sonic), appels JSON-RPC</li>
+          <li>Réseaux – testnets Sonic (Fantom), appels JSON-RPC</li>
         </ul>
       </div>
     </section>
