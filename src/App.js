@@ -12,6 +12,7 @@ import Languages from './components/Languages';
 import Interests from './components/Interests';
 import Footer from './components/Footer';
 import './App.css';
+import Stack from './components/Stack';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
+              <Stack />
               <About />
               <Skills />
               <Projects />
