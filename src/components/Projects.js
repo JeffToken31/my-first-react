@@ -61,7 +61,7 @@ function Projects() {
         <h3>dApp Swap & Staking (Ethereum) – Prototype | 2025</h3>
         <p><strong>Contexte :</strong> Projet personnel – en cours</p>
         <p><strong>Technos :</strong> Solidity, Hardhat, Ethers.js v6, OpenZeppelin, Node.js</p>
-        <p><strong>Description :</strong> Développement d’une dApp pour swapper et staker des tokens ERC20, avec génération d’intérêts. Contrats intelligents testés localement, tentatives de déploiement sur le testnet Sonic (ex-Phantom).</p>
+        <p><strong>Description :</strong> Développement d’une dApp pour swapper et staker des tokens ERC20, avec génération d’intérêts. Contrats intelligents testés localement, tentatives de déploiement sur le testnet Sonic (ex-Fantom).</p>
         <p><strong>Compétences clés :</strong> Smart Contracts, sécurité Solidity, scripts de déploiement, tests unitaires (Mocha/Chai), interaction front/back avec Ethers.js.</p>
       </div>
 
