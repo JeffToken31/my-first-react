@@ -70,6 +70,10 @@ header, section {
   margin-top: 10px;
 }
 
+.stack {
+  z-index: 10;
+}
+
 .download-button, .print-button {
   background-color: #4a90e2;
   color: white;
