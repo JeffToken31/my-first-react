@@ -14,13 +14,13 @@ import python from './teck_stack/react.png';
 import solidity from './teck_stack/solidity.png';
 import python from './teck_stack/python.png';
 
-function Projects() {
+function Stack() {
     const { ref, inView } = useInView({
         triggerOnce: true, // Lance l'animation uniquement lors de la première vue
         threshold: 0.2, // L'animation démarre lorsque 10% de la section sont visibles
     });
     return (
-        <section id="Projects" ref={ref} className={`fade-in ${inView ? 'appear' : ''}`}>
+        <section id="Stack" ref={ref} className={`fade-in ${inView ? 'appear' : ''}`}>
             <img src={git} alt="git" className="stack" />
             <img src={github} alt="github" className="stack" />
             <img src={linux} alt="linux" className="stack" />
