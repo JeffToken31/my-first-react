@@ -22,18 +22,20 @@ function App() {
         <Header />
         <Nav />
         <Routes>
-          <Route path="/" element={
-            <>
-              <Stack />
-              <About />
-              <Skills />
-              <Projects />
-              <Experience />
-              <Education />
-              <TransversalSkills />
-              <Languages />
-              <Interests />
-            </>
+        <Route path="/" element={
+        <div style={{ display: 'flex', alignItems: 'flex-start' }}>
+          <Stack />
+          <div style={{ flex: 1 }}>
+            <About />
+            <Skills />
+            <Projects />
+            <Experience />
+            <Education />
+            <TransversalSkills />
+            <Languages />
+            <Interests />
+          </div>
+        </div>
           } />
         </Routes>
         <Footer />
